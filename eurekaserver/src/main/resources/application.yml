@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: eurekaserver
+  security:
+    user:
+      name: mseureka-studies
+      password: testeapp1830
+    
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
